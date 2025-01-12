@@ -1,0 +1,10 @@
+^C:\USERS\ZHOPA\DOCUMENTS\GITHUB\SCRAPMECHANIC-BETTERCRAFTBOTRECIPECREATOR\BUILD\CMAKEFILES\E0418206E4D44319F4921E5103A31F0E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator -BC:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/SM_BCBRC.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

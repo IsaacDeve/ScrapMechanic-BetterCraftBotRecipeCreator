@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Zhopa\Documents\GitHub\ScrapMechanic-BetterCraftBotRecipeCreator\build\CMakeFiles\e0418206e4d44319f4921e5103a31f0e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{41531317-5CD1-386B-A854-CD85046A5461}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/SM_BCBRC.dir
+C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/ZERO_CHECK.dir
