@@ -7,6 +7,9 @@
     <ClCompile Include="C:\Users\Zhopa\Documents\GitHub\ScrapMechanic-BetterCraftBotRecipeCreator\src\gui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\Zhopa\Documents\GitHub\ScrapMechanic-BetterCraftBotRecipeCreator\src\saveload.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\Zhopa\Documents\GitHub\ScrapMechanic-BetterCraftBotRecipeCreator\third_party\imgui\imgui.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

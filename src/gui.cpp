@@ -1,17 +1,41 @@
 #include <iostream>
 #include "config.hpp"
+#include "saveload.hpp"
 
 namespace gui {
     void Begin()
     {
         rlImGuiBegin();
 
-        if (ImGui::Begin("hfgh"), NULL, ImGuiWindowFlags_NoCollapse)
+        if (ImGui::Begin("Items"), NULL, ImGuiWindowFlags_NoCollapse)
         {
-            if (ImGui::Button("Save and quit"))
+            ImGui::Text(sl::loadedPath.c_str());
+            ImGui::Separator();
+        
+            ImGui::End();
+        }
+
+        if (ImGui::Begin("Panel with buttons"), NULL, ImGuiWindowFlags_NoCollapse)
+        {
+            if (ImGui::Button("Add"))
             {
-                std::cout << "skibidi";
+
             }
+
+            ImGui::Separator();
+
+            if (ImGui::Button("Save"))
+            {
+
+            }
+
+            ImGui::SameLine();
+
+            if (ImGui::Button("Load"))
+            {
+                sl::Load();
+            }
+
             ImGui::End();
         }
         rlImGuiEnd();

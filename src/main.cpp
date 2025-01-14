@@ -12,7 +12,7 @@ namespace program {
 }
 
 int main(void) {
-
+    SetConfigFlags(FLAG_WINDOW_RESIZABLE);
     InitWindow(program::width, program::height, program::title);
 
     SetTargetFPS(60); 

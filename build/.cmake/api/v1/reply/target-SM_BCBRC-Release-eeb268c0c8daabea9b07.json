@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "MinSizeRel/SM_BCBRC.exe"
+			"path" : "Release/SM_BCBRC.exe"
 		},
 		{
-			"path" : "MinSizeRel/SM_BCBRC.pdb"
+			"path" : "Release/SM_BCBRC.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -42,7 +42,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 28,
+				"line" : 29,
 				"parent" : 0
 			},
 			{
@@ -71,7 +71,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG -std:c++17"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++17"
 				}
 			],
 			"includes" : 
@@ -107,7 +107,8 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8
 			]
 		}
 	],
@@ -123,7 +124,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG",
 				"role" : "flags"
 			},
 			{
@@ -187,7 +188,8 @@
 				4,
 				5,
 				6,
-				7
+				7,
+				8
 			]
 		}
 	],
@@ -203,6 +205,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/gui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/saveload.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
