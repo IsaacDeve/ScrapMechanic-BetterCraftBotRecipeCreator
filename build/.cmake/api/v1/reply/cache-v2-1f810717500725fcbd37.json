@@ -2,42 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "Breeze_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build"
-		},
-		{
-			"name" : "Breeze_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Breeze_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator"
-		},
-		{
 			"name" : "CMAKE_AR",
 			"properties" : 
 			[
@@ -551,7 +515,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/Breeze"
+			"value" : "C:/Program Files (x86)/SM_BCBRC"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -1066,42 +1030,6 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "SMBC_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build"
-		},
-		{
-			"name" : "SMBC_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "SMBC_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator"
-		},
-		{
 			"name" : "SM_BCBRC_BINARY_DIR",
 			"properties" : 
 			[
@@ -1127,150 +1055,6 @@
 		},
 		{
 			"name" : "SM_BCBRC_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator"
-		},
-		{
-			"name" : "SM_BCB_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build"
-		},
-		{
-			"name" : "SM_BCB_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "SM_BCB_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator"
-		},
-		{
-			"name" : "SM_BC_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build"
-		},
-		{
-			"name" : "SM_BC_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "SM_BC_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator"
-		},
-		{
-			"name" : "SM_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build"
-		},
-		{
-			"name" : "SM_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "SM_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator"
-		},
-		{
-			"name" : "SM__BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build"
-		},
-		{
-			"name" : "SM__IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "SM__SOURCE_DIR",
 			"properties" : 
 			[
 				{

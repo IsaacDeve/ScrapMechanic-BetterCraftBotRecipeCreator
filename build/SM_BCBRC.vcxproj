@@ -333,6 +333,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Users\Zhopa\Documents\GitHub\ScrapMechanic-BetterCraftBotRecipeCreator\src\main.cpp" />
+    <ClCompile Include="C:\Users\Zhopa\Documents\GitHub\ScrapMechanic-BetterCraftBotRecipeCreator\src\gui.cpp" />
     <ClCompile Include="C:\Users\Zhopa\Documents\GitHub\ScrapMechanic-BetterCraftBotRecipeCreator\third_party\imgui\imgui.cpp" />
     <ClCompile Include="C:\Users\Zhopa\Documents\GitHub\ScrapMechanic-BetterCraftBotRecipeCreator\third_party\imgui\imgui_draw.cpp" />
     <ClCompile Include="C:\Users\Zhopa\Documents\GitHub\ScrapMechanic-BetterCraftBotRecipeCreator\third_party\imgui\imgui_demo.cpp" />

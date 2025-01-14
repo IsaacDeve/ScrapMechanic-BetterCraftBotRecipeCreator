@@ -14,15 +14,6 @@
 # EXTERNAL cache entries
 ########################
 
-//Value Computed by CMake
-Breeze_BINARY_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build
-
-//Value Computed by CMake
-Breeze_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Breeze_SOURCE_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator
-
 //Path to a program.
 CMAKE_AR:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/lib.exe
 
@@ -92,7 +83,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Breeze
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/SM_BCBRC
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/link.exe
@@ -201,15 +192,6 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-SMBC_BINARY_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build
-
-//Value Computed by CMake
-SMBC_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-SMBC_SOURCE_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator
-
-//Value Computed by CMake
 SM_BCBRC_BINARY_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build
 
 //Value Computed by CMake
@@ -217,42 +199,6 @@ SM_BCBRC_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 SM_BCBRC_SOURCE_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator
-
-//Value Computed by CMake
-SM_BCB_BINARY_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build
-
-//Value Computed by CMake
-SM_BCB_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-SM_BCB_SOURCE_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator
-
-//Value Computed by CMake
-SM_BC_BINARY_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build
-
-//Value Computed by CMake
-SM_BC_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-SM_BC_SOURCE_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator
-
-//Value Computed by CMake
-SM_BINARY_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build
-
-//Value Computed by CMake
-SM_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-SM_SOURCE_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator
-
-//Value Computed by CMake
-SM__BINARY_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build
-
-//Value Computed by CMake
-SM__IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-SM__SOURCE_DIR:STATIC=C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator
 
 
 ########################
