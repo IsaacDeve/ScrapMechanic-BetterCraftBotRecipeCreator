@@ -1,6 +1,8 @@
 #include "saveload.hpp"
 #include "json.hpp"
 
+//#include "rlImGui.h"
+
 #define WIN32_LEAN_AND_MEAN
 #define NOMINMAX
 #include <windows.h>
@@ -23,9 +25,10 @@ namespace sl {
 
     std::string loadedPath = "Select path to craftbot.json!";
 
-    class Item {
-        
-    };
+
+
+    std::vector<Item> items;
+    
 
     std::string OpenFileDialog() {
         char filename[MAX_PATH] = "";
@@ -49,10 +52,21 @@ namespace sl {
     }
 
     void Update() {
-        
+        for (auto& i : items) {
+            i.AddToPanel();
+        }
     }
 
     void Load() {
         loadedPath = OpenFileDialog(); 
+
+        items.clear();
+        
+        try {
+
+        }
+        catch(...) {
+            MessageBox(NULL, "Couldn't open json :(" , "Error", MB_ICONERROR);
+        }
     }
 }

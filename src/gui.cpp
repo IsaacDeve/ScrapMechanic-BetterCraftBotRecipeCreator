@@ -5,7 +5,9 @@
 namespace gui {
     void Begin()
     {
+        sl::items.emplace_back();
         rlImGuiBegin();
+        sl::Update();
 
         if (ImGui::Begin("Items"), NULL, ImGuiWindowFlags_NoCollapse)
         {
@@ -26,7 +28,7 @@ namespace gui {
 
             if (ImGui::Button("Save"))
             {
-
+                sl::Save();
             }
 
             ImGui::SameLine();
