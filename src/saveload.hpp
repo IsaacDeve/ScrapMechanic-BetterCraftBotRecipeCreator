@@ -2,6 +2,7 @@
 #define SAVELOAD_HPP
 
 #include "imgui.h"
+#include "json.hpp"
 
 #include <iostream>
 #include <vector>
@@ -13,7 +14,7 @@ namespace sl {
     public:
         std::string name;
 
-        Item() : name("Default") {}
+        Item() : name("Unspecified") {}
 
         Item(std::string name) : name(name) {}
 

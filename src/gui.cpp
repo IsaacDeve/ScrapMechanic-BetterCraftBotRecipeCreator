@@ -3,15 +3,17 @@
 #include "saveload.hpp"
 
 namespace gui {
+    char searchResults[64];
     void Begin()
     {
-        sl::items.emplace_back();
         rlImGuiBegin();
         sl::Update();
 
         if (ImGui::Begin("Items"), NULL, ImGuiWindowFlags_NoCollapse)
         {
             ImGui::Text(sl::loadedPath.c_str());
+
+            ImGui::InputText("Search", searchResults, IM_ARRAYSIZE(searchResults));
             ImGui::Separator();
         
             ImGui::End();

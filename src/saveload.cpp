@@ -24,9 +24,7 @@ using json = nlohmann::json;
 namespace sl {
 
     std::string loadedPath = "Select path to craftbot.json!";
-
-
-
+    
     std::vector<Item> items;
     
 
