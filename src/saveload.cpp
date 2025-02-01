@@ -25,7 +25,7 @@ namespace sl {
 
     class Item {
         
-    }
+    };
 
     std::string OpenFileDialog() {
         char filename[MAX_PATH] = "";
