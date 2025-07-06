@@ -8,5 +8,12 @@ It is more convenient due to new intuitive ImGui interface
 
 # How to use
 
+⚠️ **Warning:** If you are editing an existing json, make sure your file does not have comments or extra characters! (usually at the top). They usually look like this
+```json
+// this file is generated
+```
+
+
+
 Drag & Drop your .json recipe into the program
 ![Image](SM_BCBRC_README.png)
