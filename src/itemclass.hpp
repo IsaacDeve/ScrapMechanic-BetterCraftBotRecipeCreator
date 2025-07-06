@@ -1,19 +1,22 @@
 #include <vector>
 
+
 class Ingredient {
     public:
     int quantity;
-    std::string itemId;
+    char itemId[64];
 };
 
 class Item {
     public:
 
-    std::string itemId;
+    char itemId[64];
     int quantity;
     int craftTime;
 
     std::vector<Ingredient> ingredientList;
 };
+
+extern std::vector<Item> items;
 
 void LoadJsonPath(const std::string path);

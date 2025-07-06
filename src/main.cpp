@@ -10,7 +10,7 @@
 // This software is licensed under the MIT license.
 
 int main(int argc, char* argv[]) {
-    SetConfigFlags(FLAG_WINDOW_RESIZABLE);
+    //SetConfigFlags();
     InitWindow(program::width, program::height, program::title);
 
 
