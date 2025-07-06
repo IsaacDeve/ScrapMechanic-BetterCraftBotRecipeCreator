@@ -31,6 +31,9 @@ namespace gui {
         SetNextWindowSize(ImVec2(xPanelBlock, program::height));
         if (Begin("Panel", nullptr, ImGuiWindowFlags_NoCollapse)) {
             if (Button("Save")) {
+
+                if (pathToRec=="") return;
+
                 json j;
 
                 for (const auto& i : items) {
@@ -85,7 +88,7 @@ namespace gui {
                 std::string itid = i.itemId;
 
                 if (itid.find(sresults) == std::string::npos) continue;
-                
+
                 InputText(("itemId##"+std::to_string(itemIds)).c_str(), i.itemId, IM_ARRAYSIZE(i.itemId));
                 InputInt(("Quantity##"+std::to_string(itemIds)).c_str(), &i.quantity);
                 InputInt(("Craft time##"+std::to_string(itemIds)).c_str(), &i.craftTime);
