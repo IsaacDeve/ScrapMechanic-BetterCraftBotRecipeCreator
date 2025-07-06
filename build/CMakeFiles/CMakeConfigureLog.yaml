@@ -1726,3 +1726,1443 @@ events:
       Microsoft (R) Incremental Linker Version 14.41.34120.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 01.02.2025 11:21:06.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ðñð░ð╣ð╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      
+      ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 0
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.86
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/3.31.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 01.02.2025 11:21:07.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ðñð░ð╣ð╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      
+      ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 0
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.49
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/3.31.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-olu1ap"
+      binary: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-olu1ap"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-olu1ap'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bca67.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+        ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 01.02.2025 11:21:08.
+        
+        ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-olu1ap\\cmTC_bca67.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        PrepareForBuild:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_bca67.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-olu1ap\\Debug\\".
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_bca67.dir\\Debug\\cmTC_bca67.tlog\\".
+        InitializeBuildStatus:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ "cmTC_bca67.dir\\Debug\\cmTC_bca67.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_bca67.dir\\Debug\\cmTC_bca67.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bca67.dir\\Debug\\\\" /Fd"cmTC_bca67.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bca67.dir\\Debug\\\\" /Fd"cmTC_bca67.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-olu1ap\\Debug\\cmTC_bca67.exe" /INCREMENTAL /ILK:"cmTC_bca67.dir\\Debug\\cmTC_bca67.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-olu1ap/Debug/cmTC_bca67.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-olu1ap/Debug/cmTC_bca67.lib" /MACHINE:X64  /machine:x64 cmTC_bca67.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_bca67.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-olu1ap\\Debug\\cmTC_bca67.exe
+        FinalizeBuildStatus:
+          ðñð░ð╣ð╗ "cmTC_bca67.dir\\Debug\\cmTC_bca67.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_bca67.dir\\Debug\\cmTC_bca67.tlog\\cmTC_bca67.lastbuildstate".
+        ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-olu1ap\\cmTC_bca67.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        
+        ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+            ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+            ð×Ðêð©ð▒ð¥ð║: 0
+        
+        ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.57
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-ybcku5"
+      binary: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-ybcku5"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-ybcku5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_0ebf5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+        ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 01.02.2025 11:21:09.
+        
+        ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybcku5\\cmTC_0ebf5.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        PrepareForBuild:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_0ebf5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybcku5\\Debug\\".
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_0ebf5.dir\\Debug\\cmTC_0ebf5.tlog\\".
+        InitializeBuildStatus:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ "cmTC_0ebf5.dir\\Debug\\cmTC_0ebf5.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_0ebf5.dir\\Debug\\cmTC_0ebf5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0ebf5.dir\\Debug\\\\" /Fd"cmTC_0ebf5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_0ebf5.dir\\Debug\\\\" /Fd"cmTC_0ebf5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybcku5\\Debug\\cmTC_0ebf5.exe" /INCREMENTAL /ILK:"cmTC_0ebf5.dir\\Debug\\cmTC_0ebf5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-ybcku5/Debug/cmTC_0ebf5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-ybcku5/Debug/cmTC_0ebf5.lib" /MACHINE:X64  /machine:x64 cmTC_0ebf5.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_0ebf5.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybcku5\\Debug\\cmTC_0ebf5.exe
+        FinalizeBuildStatus:
+          ðñð░ð╣ð╗ "cmTC_0ebf5.dir\\Debug\\cmTC_0ebf5.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_0ebf5.dir\\Debug\\cmTC_0ebf5.tlog\\cmTC_0ebf5.lastbuildstate".
+        ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ybcku5\\cmTC_0ebf5.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        
+        ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+            ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+            ð×Ðêð©ð▒ð¥ð║: 0
+        
+        ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 05.02.2025 5:44:18.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ðñð░ð╣ð╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      
+      ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 0
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:01.05
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/3.31.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 05.02.2025 5:44:19.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ðñð░ð╣ð╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      
+      ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 0
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.48
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/3.31.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-c4cpok"
+      binary: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-c4cpok"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-c4cpok'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b38b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+        ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 05.02.2025 5:44:20.
+        
+        ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4cpok\\cmTC_b38b5.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        PrepareForBuild:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_b38b5.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4cpok\\Debug\\".
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_b38b5.dir\\Debug\\cmTC_b38b5.tlog\\".
+        InitializeBuildStatus:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ "cmTC_b38b5.dir\\Debug\\cmTC_b38b5.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_b38b5.dir\\Debug\\cmTC_b38b5.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b38b5.dir\\Debug\\\\" /Fd"cmTC_b38b5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b38b5.dir\\Debug\\\\" /Fd"cmTC_b38b5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4cpok\\Debug\\cmTC_b38b5.exe" /INCREMENTAL /ILK:"cmTC_b38b5.dir\\Debug\\cmTC_b38b5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-c4cpok/Debug/cmTC_b38b5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-c4cpok/Debug/cmTC_b38b5.lib" /MACHINE:X64  /machine:x64 cmTC_b38b5.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_b38b5.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4cpok\\Debug\\cmTC_b38b5.exe
+        FinalizeBuildStatus:
+          ðñð░ð╣ð╗ "cmTC_b38b5.dir\\Debug\\cmTC_b38b5.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_b38b5.dir\\Debug\\cmTC_b38b5.tlog\\cmTC_b38b5.lastbuildstate".
+        ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c4cpok\\cmTC_b38b5.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        
+        ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+            ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+            ð×Ðêð©ð▒ð¥ð║: 0
+        
+        ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.59
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-rizd3t"
+      binary: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-rizd3t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-rizd3t'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a6a2d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+        ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 05.02.2025 5:44:21.
+        
+        ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rizd3t\\cmTC_a6a2d.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        PrepareForBuild:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_a6a2d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rizd3t\\Debug\\".
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_a6a2d.dir\\Debug\\cmTC_a6a2d.tlog\\".
+        InitializeBuildStatus:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ "cmTC_a6a2d.dir\\Debug\\cmTC_a6a2d.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_a6a2d.dir\\Debug\\cmTC_a6a2d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a6a2d.dir\\Debug\\\\" /Fd"cmTC_a6a2d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a6a2d.dir\\Debug\\\\" /Fd"cmTC_a6a2d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rizd3t\\Debug\\cmTC_a6a2d.exe" /INCREMENTAL /ILK:"cmTC_a6a2d.dir\\Debug\\cmTC_a6a2d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-rizd3t/Debug/cmTC_a6a2d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-rizd3t/Debug/cmTC_a6a2d.lib" /MACHINE:X64  /machine:x64 cmTC_a6a2d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_a6a2d.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rizd3t\\Debug\\cmTC_a6a2d.exe
+        FinalizeBuildStatus:
+          ðñð░ð╣ð╗ "cmTC_a6a2d.dir\\Debug\\cmTC_a6a2d.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_a6a2d.dir\\Debug\\cmTC_a6a2d.tlog\\cmTC_a6a2d.lastbuildstate".
+        ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rizd3t\\cmTC_a6a2d.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        
+        ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+            ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+            ð×Ðêð©ð▒ð¥ð║: 0
+        
+        ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.54
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 07.02.2025 5:47:09.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ðñð░ð╣ð╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      
+      ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 0
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.88
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/3.31.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 07.02.2025 5:47:10.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ðñð░ð╣ð╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      
+      ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 0
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.64
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/3.31.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-5x4gnr"
+      binary: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-5x4gnr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-5x4gnr'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f079d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+        ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 07.02.2025 5:47:11.
+        
+        ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5x4gnr\\cmTC_f079d.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        PrepareForBuild:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_f079d.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5x4gnr\\Debug\\".
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_f079d.dir\\Debug\\cmTC_f079d.tlog\\".
+        InitializeBuildStatus:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ "cmTC_f079d.dir\\Debug\\cmTC_f079d.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_f079d.dir\\Debug\\cmTC_f079d.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f079d.dir\\Debug\\\\" /Fd"cmTC_f079d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f079d.dir\\Debug\\\\" /Fd"cmTC_f079d.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5x4gnr\\Debug\\cmTC_f079d.exe" /INCREMENTAL /ILK:"cmTC_f079d.dir\\Debug\\cmTC_f079d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-5x4gnr/Debug/cmTC_f079d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-5x4gnr/Debug/cmTC_f079d.lib" /MACHINE:X64  /machine:x64 cmTC_f079d.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_f079d.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5x4gnr\\Debug\\cmTC_f079d.exe
+        FinalizeBuildStatus:
+          ðñð░ð╣ð╗ "cmTC_f079d.dir\\Debug\\cmTC_f079d.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_f079d.dir\\Debug\\cmTC_f079d.tlog\\cmTC_f079d.lastbuildstate".
+        ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5x4gnr\\cmTC_f079d.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        
+        ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+            ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+            ð×Ðêð©ð▒ð¥ð║: 0
+        
+        ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.63
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-71ph14"
+      binary: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-71ph14"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-71ph14'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8a2da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+        ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 07.02.2025 5:47:12.
+        
+        ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ph14\\cmTC_8a2da.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        PrepareForBuild:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_8a2da.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ph14\\Debug\\".
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_8a2da.dir\\Debug\\cmTC_8a2da.tlog\\".
+        InitializeBuildStatus:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ "cmTC_8a2da.dir\\Debug\\cmTC_8a2da.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_8a2da.dir\\Debug\\cmTC_8a2da.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8a2da.dir\\Debug\\\\" /Fd"cmTC_8a2da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8a2da.dir\\Debug\\\\" /Fd"cmTC_8a2da.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ph14\\Debug\\cmTC_8a2da.exe" /INCREMENTAL /ILK:"cmTC_8a2da.dir\\Debug\\cmTC_8a2da.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-71ph14/Debug/cmTC_8a2da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-71ph14/Debug/cmTC_8a2da.lib" /MACHINE:X64  /machine:x64 cmTC_8a2da.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8a2da.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ph14\\Debug\\cmTC_8a2da.exe
+        FinalizeBuildStatus:
+          ðñð░ð╣ð╗ "cmTC_8a2da.dir\\Debug\\cmTC_8a2da.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_8a2da.dir\\Debug\\cmTC_8a2da.tlog\\cmTC_8a2da.lastbuildstate".
+        ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71ph14\\cmTC_8a2da.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        
+        ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+            ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+            ð×Ðêð©ð▒ð¥ð║: 0
+        
+        ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.69
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 12.02.2025 6:42:41.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ðñð░ð╣ð╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      
+      ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 0
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.87
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/3.31.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+      ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 12.02.2025 6:42:42.
+      
+      ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      PrepareForBuild:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        ðíð¥ðÀð┤ð░ð¢ð©ðÁ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        ðñð░ð╣ð╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+        ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+      
+      ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+          ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+          ð×Ðêð©ð▒ð¥ð║: 0
+      
+      ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.60
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/3.31.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-r0xj4r"
+      binary: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-r0xj4r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-r0xj4r'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bba04.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+        ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 12.02.2025 6:42:43.
+        
+        ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0xj4r\\cmTC_bba04.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        PrepareForBuild:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_bba04.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0xj4r\\Debug\\".
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_bba04.dir\\Debug\\cmTC_bba04.tlog\\".
+        InitializeBuildStatus:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ "cmTC_bba04.dir\\Debug\\cmTC_bba04.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_bba04.dir\\Debug\\cmTC_bba04.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bba04.dir\\Debug\\\\" /Fd"cmTC_bba04.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bba04.dir\\Debug\\\\" /Fd"cmTC_bba04.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0xj4r\\Debug\\cmTC_bba04.exe" /INCREMENTAL /ILK:"cmTC_bba04.dir\\Debug\\cmTC_bba04.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-r0xj4r/Debug/cmTC_bba04.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-r0xj4r/Debug/cmTC_bba04.lib" /MACHINE:X64  /machine:x64 cmTC_bba04.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_bba04.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0xj4r\\Debug\\cmTC_bba04.exe
+        FinalizeBuildStatus:
+          ðñð░ð╣ð╗ "cmTC_bba04.dir\\Debug\\cmTC_bba04.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_bba04.dir\\Debug\\cmTC_bba04.tlog\\cmTC_bba04.lastbuildstate".
+        ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r0xj4r\\cmTC_bba04.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        
+        ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+            ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+            ð×Ðêð©ð▒ð¥ð║: 0
+        
+        ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.87
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-67mzn7"
+      binary: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-67mzn7"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-67mzn7'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_761b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        ðÆðÁÐÇÐüð©ÐÅ MSBuild 17.11.2+c078802d4 ð┤ð╗ÐÅ .NET Framework
+        ðíð▒ð¥ÐÇð║ð░ ð¢ð░Ðçð░Ðéð░ 12.02.2025 6:42:45.
+        
+        ðƒÐÇð¥ðÁð║Ðé "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-67mzn7\\cmTC_761b1.vcxproj" ð▓ ÐâðÀð╗ðÁ 1 (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        PrepareForBuild:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_761b1.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-67mzn7\\Debug\\".
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ ð║ð░Ðéð░ð╗ð¥ð│ð░ "cmTC_761b1.dir\\Debug\\cmTC_761b1.tlog\\".
+        InitializeBuildStatus:
+          ðíð¥ðÀð┤ð░ð¢ð©ðÁ "cmTC_761b1.dir\\Debug\\cmTC_761b1.tlog\\unsuccessfulbuild", Ðéð░ð║ ð║ð░ð║ ð▒Ðïð╗ð¥ ðÀð░ð┤ð░ð¢ð¥ "AlwaysCreate".
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_761b1.dir\\Debug\\cmTC_761b1.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_761b1.dir\\Debug\\\\" /Fd"cmTC_761b1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_761b1.dir\\Debug\\\\" /Fd"cmTC_761b1.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-67mzn7\\Debug\\cmTC_761b1.exe" /INCREMENTAL /ILK:"cmTC_761b1.dir\\Debug\\cmTC_761b1.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-67mzn7/Debug/cmTC_761b1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-67mzn7/Debug/cmTC_761b1.lib" /MACHINE:X64  /machine:x64 cmTC_761b1.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_761b1.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-67mzn7\\Debug\\cmTC_761b1.exe
+        FinalizeBuildStatus:
+          ðñð░ð╣ð╗ "cmTC_761b1.dir\\Debug\\cmTC_761b1.tlog\\unsuccessfulbuild" Ðâð┤ð░ð╗ÐÅðÁÐéÐüÐÅ.
+          ð×ð▒ÐÇð░ÐëðÁð¢ð©ðÁ ð║ "cmTC_761b1.dir\\Debug\\cmTC_761b1.tlog\\cmTC_761b1.lastbuildstate".
+        ðíð▒ð¥ÐÇð║ð░ ð┐ÐÇð¥ðÁð║Ðéð░ "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-67mzn7\\cmTC_761b1.vcxproj" ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░ (ÐåðÁð╗ðÁð▓ÐïðÁ ð¥ð▒ÐèðÁð║ÐéÐï ð┐ð¥ Ðâð╝ð¥ð╗Ðçð░ð¢ð©ÐÄ).
+        
+        ðíð▒ð¥ÐÇð║ð░ ÐâÐüð┐ðÁÐêð¢ð¥ ðÀð░ð▓ðÁÐÇÐêðÁð¢ð░.
+            ðƒÐÇðÁð┤Ðâð┐ÐÇðÁðÂð┤ðÁð¢ð©ð╣: 0
+            ð×Ðêð©ð▒ð¥ð║: 0
+        
+        ðƒÐÇð¥Ðêð╗ð¥ ð▓ÐÇðÁð╝ðÁð¢ð© 00:00:00.70
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 06/07/2025 08:27:36.
+      
+      Project "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.09
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/3.31.0-rc1/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      MSBuild version 17.11.2+c078802d4 for .NET Framework
+      Build started 06/07/2025 08:27:38.
+      
+      Project "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        Touching "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+      ClCompile:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\3.31.0-rc1\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:00.66
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/3.31.0-rc1/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-dehokw"
+      binary: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-dehokw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-dehokw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_15b94.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 06/07/2025 08:27:39.
+        
+        Project "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dehokw\\cmTC_15b94.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_15b94.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dehokw\\Debug\\".
+          Creating directory "cmTC_15b94.dir\\Debug\\cmTC_15b94.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_15b94.dir\\Debug\\cmTC_15b94.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_15b94.dir\\Debug\\cmTC_15b94.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15b94.dir\\Debug\\\\" /Fd"cmTC_15b94.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15b94.dir\\Debug\\\\" /Fd"cmTC_15b94.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dehokw\\Debug\\cmTC_15b94.exe" /INCREMENTAL /ILK:"cmTC_15b94.dir\\Debug\\cmTC_15b94.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-dehokw/Debug/cmTC_15b94.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-dehokw/Debug/cmTC_15b94.lib" /MACHINE:X64  /machine:x64 cmTC_15b94.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_15b94.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dehokw\\Debug\\cmTC_15b94.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_15b94.dir\\Debug\\cmTC_15b94.tlog\\unsuccessfulbuild".
+          Touching "cmTC_15b94.dir\\Debug\\cmTC_15b94.tlog\\cmTC_15b94.lastbuildstate".
+        Done Building Project "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dehokw\\cmTC_15b94.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.65
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-chc4he"
+      binary: "C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-chc4he"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-chc4he'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c738a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        MSBuild version 17.11.2+c078802d4 for .NET Framework
+        Build started 06/07/2025 08:27:40.
+        
+        Project "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-chc4he\\cmTC_c738a.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_c738a.dir\\Debug\\".
+          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+          Creating directory "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-chc4he\\Debug\\".
+          Creating directory "cmTC_c738a.dir\\Debug\\cmTC_c738a.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_c738a.dir\\Debug\\cmTC_c738a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c738a.dir\\Debug\\cmTC_c738a.tlog\\unsuccessfulbuild".
+        ClCompile:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c738a.dir\\Debug\\\\" /Fd"cmTC_c738a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.41.34120 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c738a.dir\\Debug\\\\" /Fd"cmTC_c738a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+        Link:
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-chc4he\\Debug\\cmTC_c738a.exe" /INCREMENTAL /ILK:"cmTC_c738a.dir\\Debug\\cmTC_c738a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-chc4he/Debug/cmTC_c738a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Zhopa/Documents/GitHub/ScrapMechanic-BetterCraftBotRecipeCreator/build/CMakeFiles/CMakeScratch/TryCompile-chc4he/Debug/cmTC_c738a.lib" /MACHINE:X64  /machine:x64 cmTC_c738a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c738a.vcxproj -> C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-chc4he\\Debug\\cmTC_c738a.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_c738a.dir\\Debug\\cmTC_c738a.tlog\\unsuccessfulbuild".
+          Touching "cmTC_c738a.dir\\Debug\\cmTC_c738a.tlog\\cmTC_c738a.lastbuildstate".
+        Done Building Project "C:\\Users\\Zhopa\\Documents\\GitHub\\ScrapMechanic-BetterCraftBotRecipeCreator\\build\\CMakeFiles\\CMakeScratch\\TryCompile-chc4he\\cmTC_c738a.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:00.64
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.41.34120.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

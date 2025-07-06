@@ -1,26 +1,38 @@
-#include "config.hpp"
+#include "gui.hpp"
 #include <iostream>
+#include <string>
+
+#include "itemclass.hpp"
+
+#include <raylib.h>
 
 // © 2025 IsaacDeve. All rights reserved.
 // This software is licensed under the MIT license.
 
-namespace program {
-    const int width = 1920/2;
-    const int height = 1080/2;
-
-    const char title[] = "Recipe creator 2.0";
-}
-
-int main(void) {
+int main(int argc, char* argv[]) {
     SetConfigFlags(FLAG_WINDOW_RESIZABLE);
     InitWindow(program::width, program::height, program::title);
+
+
+    if (argc>1) {
+        LoadJsonPath(argv[1]);
+    }
 
     SetTargetFPS(60); 
     rlImGuiSetup(true);
     while (!WindowShouldClose()) {
-        ClearBackground({15, 19, 77, 255});
+
+        if (IsFileDropped()) {
+            FilePathList droppedFiles = LoadDroppedFiles();
+            if (droppedFiles.count > 0) {
+                LoadJsonPath(droppedFiles.paths[0]);
+            }
+        }
+
+
         BeginDrawing();
-        gui::Begin();
+        ClearBackground({15, 19, 77, 255});
+        gui::Update();
 
         EndDrawing();
     }

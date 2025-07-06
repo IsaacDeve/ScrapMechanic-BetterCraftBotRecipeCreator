@@ -13,7 +13,6 @@ link_directories(${CMAKE_SOURCE_DIR}/lib)
 add_executable(SM_BCBRC 
     src/main.cpp 
     src/gui.cpp
-    src/saveload.cpp
     ${CMAKE_SOURCE_DIR}/third_party/imgui/imgui.cpp 
     ${CMAKE_SOURCE_DIR}/third_party/imgui/imgui_draw.cpp 
     ${CMAKE_SOURCE_DIR}/third_party/imgui/imgui_demo.cpp 
@@ -22,8 +21,7 @@ add_executable(SM_BCBRC
     ${CMAKE_SOURCE_DIR}/include/rlImGui/rlImGui.cpp
 )
 
-file(COPY ${CMAKE_SOURCE_DIR}/lib DESTINATION ${CMAKE_BINARY_DIR}/Release/build)
-file(COPY ${CMAKE_SOURCE_DIR}/include DESTINATION ${CMAKE_BINARY_DIR}/Release/build)
+file(COPY "${CMAKE_SOURCE_DIR}/resources" DESTINATION "${CMAKE_BINARY_DIR}/$<CONFIG>")
 
 if (WIN32)
     target_link_libraries(SM_BCBRC ${CMAKE_SOURCE_DIR}/lib/raylib.lib opengl32 gdi32 winmm user32)
