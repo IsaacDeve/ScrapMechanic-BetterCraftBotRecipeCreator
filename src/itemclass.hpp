@@ -1,7 +1,5 @@
 #include <vector>
 
-#include "gui.hpp"
-
 class Ingredient {
     public:
     int quantity;
@@ -18,7 +16,4 @@ class Item {
     std::vector<Ingredient> ingredientList;
 };
 
-inline void LoadJsonPath(const std::string path) {
-    gui::pathToRec = path;
-    SetWindowTitle((std::string(program::title) + " - " + gui::pathToRec).c_str());
-}
+void LoadJsonPath(const std::string path);

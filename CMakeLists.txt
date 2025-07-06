@@ -13,6 +13,7 @@ link_directories(${CMAKE_SOURCE_DIR}/lib)
 add_executable(SM_BCBRC 
     src/main.cpp 
     src/gui.cpp
+    src/itemclass.cpp
     ${CMAKE_SOURCE_DIR}/third_party/imgui/imgui.cpp 
     ${CMAKE_SOURCE_DIR}/third_party/imgui/imgui_draw.cpp 
     ${CMAKE_SOURCE_DIR}/third_party/imgui/imgui_demo.cpp 
