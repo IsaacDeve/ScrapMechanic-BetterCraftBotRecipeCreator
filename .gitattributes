@@ -1,0 +1,6 @@
+*.h linguist-language=C++
+*.c linguist-language=C++
+*.cpp linguist-language=C++
+
+third_party/* linguist-vendored
+lib/* linguist-vendored
