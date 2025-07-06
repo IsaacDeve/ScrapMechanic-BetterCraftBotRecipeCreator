@@ -25,6 +25,9 @@ int main(int argc, char* argv[]) {
 
     SetTargetFPS(60); 
     rlImGuiSetup(true);
+
+    UpdateCraftablesList();
+
     while (!WindowShouldClose()) {
 
     if (IsFileDropped() && !fileJustDropped) {

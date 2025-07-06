@@ -98,12 +98,25 @@ namespace gui {
                 UpdateCraftablesList();
             } 
 
-            for (auto& c : craftableList) {
-                ImGui::PushItemWidth(-1);
-                InputText(("##CraftableName - "+std::to_string(craftableIds)).c_str(), c.name, IM_ARRAYSIZE(c.name));
-                InputText(("##CraftableId - "+std::to_string(craftableIds)).c_str(), c.id, IM_ARRAYSIZE(c.id));
-                ImGui::PopItemWidth();
+            SameLine();
 
+            InputText("##CraftableSearch", craftablesSearch, IM_ARRAYSIZE(craftablesSearch));
+
+            for (auto& c : craftableList) {
+                
+                std::string craftname = c.name;
+                std::string craftid = c.id;
+
+                if (craftname.find(craftablesSearch) == std::string::npos &&
+                    craftid.find(craftablesSearch) == std::string::npos) {
+                    continue;
+                }
+
+                ImGui::PushItemWidth(-1);
+                InputText(("##CraftableName - "+std::to_string(craftableIds)).c_str(), c.name, IM_ARRAYSIZE(c.name), ImGuiInputTextFlags_ReadOnly);
+                InputText(("##CraftableId - "+std::to_string(craftableIds)).c_str(), c.id, IM_ARRAYSIZE(c.id), ImGuiInputTextFlags_ReadOnly);
+                ImGui::PopItemWidth();
+                
                 Separator();
                 craftableIds++;
             }
