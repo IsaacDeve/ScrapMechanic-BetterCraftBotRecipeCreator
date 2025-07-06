@@ -58,8 +58,6 @@ namespace gui {
                 }
             }
 
-            Button("Nagiev");
-
             InputText("Search", searchResults, IM_ARRAYSIZE(searchResults), ImGuiInputTextFlags_EnterReturnsTrue);
 
             Separator();
@@ -86,6 +84,35 @@ namespace gui {
                 InputText(("itemId##"+std::to_string(itemIds)).c_str(), i.itemId, IM_ARRAYSIZE(i.itemId));
                 InputInt(("Quantity##"+std::to_string(itemIds)).c_str(), &i.quantity);
                 InputInt(("Craft time##"+std::to_string(itemIds)).c_str(), &i.craftTime);
+
+                int ingIndex = 0;
+                for (auto it = i.ingredientList.begin(); it != i.ingredientList.end(); ) {
+                    std::string base = std::to_string(itemIds) + "_" + std::to_string(ingIndex);
+                    ImGui::PushID(base.c_str());
+
+                    InputText("Ingredient Id", it->itemId, IM_ARRAYSIZE(it->itemId));
+                    InputInt("Ingredient quantity", &it->quantity);
+
+                    if (Button("Remove Ingredient")) {
+                        it = i.ingredientList.erase(it);
+                        ImGui::PopID();
+                        continue;
+                    }
+
+                    ImGui::PopID();
+                    ++it;
+                    ++ingIndex;
+                }
+
+
+                if (Button(("Add ingredient##"+std::to_string(itemIds)).c_str())) {
+                    Ingredient ing;
+
+                    strncpy(ing.itemId, "", 64);
+                    ing.quantity = 1;
+
+                    i.ingredientList.push_back(ing);
+                }
 
                 Separator();
 
