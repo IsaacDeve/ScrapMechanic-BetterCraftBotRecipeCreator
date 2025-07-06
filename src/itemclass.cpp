@@ -12,6 +12,9 @@ std::vector<Item> items;
 
 int itemIds = 0;
 
+std::vector<Craftable> craftableList;
+
+
 std::string FindNameById(std::string id) {
     std::ifstream f("craftables.json");
     json j;
@@ -69,5 +72,29 @@ void LoadJsonPath(const std::string path) {
     }
     catch(const std::exception& ex) {
         std::cerr<<ex.what()<<"\n";
+    }
+}
+
+void UpdateCraftablesList() {
+    try {
+        craftableList.clear();
+
+        std::ifstream file("craftables.json");
+        json j;
+
+        file >> j;
+        file.close();
+
+        for (const auto& entry : j) {
+            Craftable crft;
+
+            strncpy(crft.id, entry["Id"].get<std::string>().c_str(), 64);
+            strncpy(crft.name, entry["Name"].get<std::string>().c_str(), 64);
+
+            craftableList.push_back(crft);
+        }
+    }
+    catch(const std::exception& ex) {
+        std::cerr << ex.what() << "\n";
     }
 }

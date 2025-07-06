@@ -12,10 +12,12 @@
 int main(int argc, char* argv[]) {
 
     static bool fileJustDropped = false;
-    
+
     //SetConfigFlags();
+
     InitWindow(program::width, program::height, program::title);
 
+    SetExitKey(KEY_NULL);
 
     if (argc>1) {
         LoadJsonPath(argv[1]);

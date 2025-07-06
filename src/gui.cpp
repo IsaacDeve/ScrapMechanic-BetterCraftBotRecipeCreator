@@ -18,18 +18,24 @@ namespace gui {
 
     std::string pathToRec = "";
 
-    int xPanelBlock = program::width/4;
-
-
+    int xPanelBlock = program::width/3;
+    int xIngredientMargin = 50;
 
     char searchResults[64];
+
+    char craftablesSearch[64];
+
+    int craftableIds = 0;
+
+
     void Update()
     {
         rlImGuiBegin();
 
         SetNextWindowPos(ImVec2(0,0));
-        SetNextWindowSize(ImVec2(xPanelBlock, program::height));
+        SetNextWindowSize(ImVec2(xPanelBlock, program::height/5));
         if (Begin("Panel", nullptr, ImGuiWindowFlags_NoCollapse)) {
+
             if (Button("Save")) {
 
                 if (pathToRec=="") return;
@@ -61,7 +67,11 @@ namespace gui {
                 }
             }
 
-            InputText("Search", searchResults, IM_ARRAYSIZE(searchResults), ImGuiInputTextFlags_EnterReturnsTrue);
+            Separator();
+
+
+
+            InputText("Search", searchResults, IM_ARRAYSIZE(searchResults));
 
             Separator();
 
@@ -79,30 +89,68 @@ namespace gui {
             End();
         }
 
+
+        SetNextWindowPos(ImVec2(0, program::height/5));
+        SetNextWindowSize(ImVec2(xPanelBlock, program::height-program::height/5));
+        if (Begin("Craftables")) {
+            craftableIds = 0;
+            if (Button("Update")) {
+                UpdateCraftablesList();
+            } 
+
+            for (auto& c : craftableList) {
+                ImGui::PushItemWidth(-1);
+                InputText(("##CraftableName - "+std::to_string(craftableIds)).c_str(), c.name, IM_ARRAYSIZE(c.name));
+                InputText(("##CraftableId - "+std::to_string(craftableIds)).c_str(), c.id, IM_ARRAYSIZE(c.id));
+                ImGui::PopItemWidth();
+
+                Separator();
+                craftableIds++;
+            }
+
+            End();
+        }
+
         SetNextWindowPos(ImVec2(xPanelBlock, 0));
         SetNextWindowSize(ImVec2(program::width-xPanelBlock, program::height));
         if (Begin("Item list", nullptr, ImGuiWindowFlags_NoCollapse)) {
             itemIds = 0;
-            for (auto& i : items) {
+            for (auto itItem = items.begin(); itItem != items.end(); ) {
                 std::string sresults = searchResults;
-                std::string itid = i.itemId;
+                std::string itid = itItem->itemId;
 
-                if (itid.find(sresults) == std::string::npos) continue;
+                if (itid.find(sresults) == std::string::npos) { ++itItem; continue; }
 
-                InputText(("itemId##"+std::to_string(itemIds)).c_str(), i.itemId, IM_ARRAYSIZE(i.itemId));
-                InputInt(("Quantity##"+std::to_string(itemIds)).c_str(), &i.quantity);
-                InputInt(("Craft time##"+std::to_string(itemIds)).c_str(), &i.craftTime);
+                ImGui::PushID(itemIds);
+
+                if (Button("Remove item")) {
+                    itItem = items.erase(itItem);
+                    ImGui::PopID();
+                    continue;
+                }
+
+                ImGui::PopID();
+
+                InputText(("itemId##"+std::to_string(itemIds)).c_str(), itItem->itemId, IM_ARRAYSIZE(itItem->itemId));
+                InputInt(("Quantity##"+std::to_string(itemIds)).c_str(), &itItem->quantity);
+                InputInt(("Craft time##"+std::to_string(itemIds)).c_str(), &itItem->craftTime);
+
+                SeparatorText("Ingredients");
 
                 int ingIndex = 0;
-                for (auto it = i.ingredientList.begin(); it != i.ingredientList.end(); ) {
+                for (auto it = itItem->ingredientList.begin(); it != itItem->ingredientList.end(); ) {
                     std::string base = std::to_string(itemIds) + "_" + std::to_string(ingIndex);
                     ImGui::PushID(base.c_str());
 
+                    ImGui::SetCursorPosX(ImGui::GetCursorPosX() + xIngredientMargin);
                     InputText("Ingredient Id", it->itemId, IM_ARRAYSIZE(it->itemId));
+
+                    ImGui::SetCursorPosX(ImGui::GetCursorPosX() + xIngredientMargin);
                     InputInt("Ingredient quantity", &it->quantity);
 
-                    if (Button("Remove Ingredient")) {
-                        it = i.ingredientList.erase(it);
+                    ImGui::SetCursorPosX(ImGui::GetCursorPosX() + xIngredientMargin);
+                    if (Button("Remove ingredient")) {
+                        it = itItem->ingredientList.erase(it);
                         ImGui::PopID();
                         continue;
                     }
@@ -119,11 +167,14 @@ namespace gui {
                     strncpy(ing.itemId, "", 64);
                     ing.quantity = 1;
 
-                    i.ingredientList.push_back(ing);
+                    itItem->ingredientList.push_back(ing);
                 }
 
                 Separator();
+                Separator();
+                Separator();
 
+                ++itItem;
                 itemIds++;
             }
             End();
