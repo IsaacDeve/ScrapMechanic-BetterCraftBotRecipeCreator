@@ -81,6 +81,11 @@ namespace gui {
         if (Begin("Item list", nullptr, ImGuiWindowFlags_NoCollapse)) {
             itemIds = 0;
             for (auto& i : items) {
+                std::string sresults = searchResults;
+                std::string itid = i.itemId;
+
+                if (itid.find(sresults) == std::string::npos) continue;
+                
                 InputText(("itemId##"+std::to_string(itemIds)).c_str(), i.itemId, IM_ARRAYSIZE(i.itemId));
                 InputInt(("Quantity##"+std::to_string(itemIds)).c_str(), &i.quantity);
                 InputInt(("Craft time##"+std::to_string(itemIds)).c_str(), &i.craftTime);

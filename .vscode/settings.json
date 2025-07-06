@@ -74,6 +74,11 @@
         "xlocmon": "cpp",
         "xlocnum": "cpp",
         "xloctime": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "codecvt": "cpp",
+        "string_view": "cpp",
+        "xthread": "cpp",
+        "thread": "cpp",
+        "stop_token": "cpp"
     }
 }

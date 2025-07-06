@@ -22,6 +22,9 @@ add_executable(SM_BCBRC
     ${CMAKE_SOURCE_DIR}/include/rlImGui/rlImGui.cpp
 )
 
+file (COPY ${CMAKE_SOURCE_DIR}/craftables.json DESTINATION ${CMAKE_BINARY_DIR}/Release)
+file (COPY ${CMAKE_SOURCE_DIR}/craftables.json DESTINATION ${CMAKE_BINARY_DIR}/Debug)
+
 if (WIN32)
     target_link_libraries(SM_BCBRC ${CMAKE_SOURCE_DIR}/lib/raylib.lib opengl32 gdi32 winmm user32)
 else()

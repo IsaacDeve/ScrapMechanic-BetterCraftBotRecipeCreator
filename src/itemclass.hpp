@@ -24,6 +24,8 @@ class Item {
 
 extern std::vector<Item> items;
 
+std::string FindNameById(std::string id);
+
 void LoadJsonPath(const std::string path);
 
 inline void to_json(json& j, const Ingredient& i) {

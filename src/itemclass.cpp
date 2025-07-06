@@ -4,9 +4,30 @@
 #include <iostream>
 #include <fstream>
 
+#include <json.hpp>
+
+using json = nlohmann::json;
+
 std::vector<Item> items;
 
 int itemIds = 0;
+
+std::string FindNameById(std::string id) {
+    std::ifstream f("craftables.json");
+    json j;
+
+    f >> j;
+    f.close();
+
+    for (const auto& entry : j) {
+        if (entry["Id"] == id) {
+            return entry["Name"];
+        }
+    }
+
+    return "Unknown";
+
+}
 
 void LoadJsonPath(const std::string path) {
     try {
