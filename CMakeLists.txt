@@ -30,6 +30,7 @@ file (COPY "${CMAKE_SOURCE_DIR}/LEGAL NOTICES.txt" DESTINATION ${CMAKE_BINARY_DI
 
 if (WIN32)
     target_link_libraries(SM_BCBRC ${CMAKE_SOURCE_DIR}/lib/raylib.lib opengl32 gdi32 winmm user32)
+    set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} /ENTRY:mainCRTStartup /SUBSYSTEM:WINDOWS")
 else()
     target_link_libraries(SM_BCBRC raylib m dl pthread GL)
 endif()
