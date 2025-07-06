@@ -10,6 +10,9 @@
 // This software is licensed under the MIT license.
 
 int main(int argc, char* argv[]) {
+
+    static bool fileJustDropped = false;
+    
     //SetConfigFlags();
     InitWindow(program::width, program::height, program::title);
 
@@ -22,12 +25,18 @@ int main(int argc, char* argv[]) {
     rlImGuiSetup(true);
     while (!WindowShouldClose()) {
 
-        if (IsFileDropped()) {
-            FilePathList droppedFiles = LoadDroppedFiles();
-            if (droppedFiles.count > 0) {
-                LoadJsonPath(droppedFiles.paths[0]);
-            }
+    if (IsFileDropped() && !fileJustDropped) {
+        FilePathList droppedFiles = LoadDroppedFiles();
+        if (droppedFiles.count > 0) {
+            LoadJsonPath(droppedFiles.paths[0]);
+            fileJustDropped = true;
         }
+        UnloadDroppedFiles(droppedFiles);
+    }
+
+    if (!IsFileDropped()) {
+        fileJustDropped = false;
+    }
 
 
         BeginDrawing();

@@ -1,5 +1,10 @@
 #include <vector>
 
+#include <json.hpp>
+
+using json = nlohmann::json;
+
+extern int itemIds;
 
 class Ingredient {
     public:
@@ -20,3 +25,16 @@ class Item {
 extern std::vector<Item> items;
 
 void LoadJsonPath(const std::string path);
+
+inline void to_json(json& j, const Ingredient& i) {
+    j = json{{"itemId", i.itemId}, {"quantity", i.quantity}};
+}
+
+inline void to_json(json& j, const Item& i) {
+    j = json{
+        {"itemId", i.itemId},
+        {"quantity", i.quantity},
+        {"craftTime", i.craftTime},
+        {"ingredientList", i.ingredientList}
+    };
+}

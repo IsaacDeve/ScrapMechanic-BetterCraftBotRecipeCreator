@@ -4,14 +4,14 @@
 #include <iostream>
 #include <fstream>
 
-#include <json.hpp>
-
 std::vector<Item> items;
 
-using json = nlohmann::json;
+int itemIds = 0;
 
 void LoadJsonPath(const std::string path) {
     try {
+
+        itemIds = 0;
 
         items.clear();
 
