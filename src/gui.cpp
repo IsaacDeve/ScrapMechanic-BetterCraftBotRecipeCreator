@@ -132,7 +132,12 @@ namespace gui {
                 std::string sresults = searchResults;
                 std::string itid = itItem->itemId;
 
-                if (itid.find(sresults) == std::string::npos) { ++itItem; continue; }
+                if (itid.find(sresults) == std::string::npos && FindNameById(itid).find(sresults) == std::string::npos) {
+                    ++itItem;
+                    continue;
+                }
+
+
 
                 ImGui::PushID(itemIds);
 
@@ -173,7 +178,11 @@ namespace gui {
                     ++ingIndex;
                 }
 
+                SetCursorPosX(ImGui::GetCursorPosX() + xIngredientMargin);
 
+                Text("- - - - - - - - -");
+
+                SetCursorPosX(ImGui::GetCursorPosX() + xIngredientMargin+20);
                 if (Button(("Add ingredient##"+std::to_string(itemIds)).c_str())) {
                     Ingredient ing;
 
